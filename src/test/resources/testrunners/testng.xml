@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG Regression Suite" verbose="4">
+
+	<test name="Google Test">
+		<classes>
+			<class name="mytests.GoogleTest" />
+		</classes>
+	</test>
+
+	<test name="OrnageHRM Test">
+		<classes>
+			<class name="mytests.OrangeHRMAppTest" />
+		</classes>
+	</test>
+
+	<test name="OpenCart Login Test">
+		<classes>
+			<class name="mytests.DemoCartAppTest" />
+		</classes>
+	</test>
+</suite>
